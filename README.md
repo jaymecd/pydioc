@@ -9,7 +9,7 @@ with loose coupling component and improved testing capabilities.
 
 Inspiration comes from [python:design_patterns:inversion_of_control](https://web.archive.org/web/20130703221553/http://www.emilmont.net/doku.php?id=python:design_patterns:inversion_of_control) summary article.
 
-This modules is an optimized version of a container used in [p3.4.advanced-di-ioc](https://github.com/jaymecd/lambda-modular-python/tree/master/p3.4.advanced-di-ioc/myfunction/src/di) section of my [lambda-modular-python](https://github.com/jaymecd/lambda-modular-python) MOB session @Cloudreach.
+This modules is an optimized version of a container used in [p3.4.advanced-di-ioc](https://github.com/jaymecd/lambda-modular-python/tree/master/p3.4.advanced-di-ioc/myfunction/src/di) section of my [lambda-modular-python](https://github.com/jaymecd/lambda-modular-python) MOB session @cloudreach.
 
 ## Usage
 
