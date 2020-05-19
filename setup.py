@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 from pydioc import __version__
 
 with open("README.md") as fd:
-    readme = fd.read()
+    README = fd.read()
 
-test_requirements = [
+TEST_REQUIREMENTS = [
     "pytest>=5.4,<6.0",
 ]
 
@@ -13,7 +13,7 @@ setup(
     description="Python DI/IoC container",
     python_requires=">3.7",
     version=__version__,
-    long_description=readme,
+    long_description=README,
     long_description_content_type="text/markdown",
     author="Nikolai Zujev",
     author_email="nikolai.zujev@gmail.com",
@@ -36,6 +36,6 @@ setup(
         "Documentation": "https://github.com/jaymecd/pydioc",
     },
     test_suite="tests",
-    tests_require=test_requirements,
-    extras_require={"test": test_requirements},
+    tests_require=TEST_REQUIREMENTS,
+    extras_require={"test": TEST_REQUIREMENTS},
 )
