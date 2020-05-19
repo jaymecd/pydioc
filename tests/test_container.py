@@ -35,10 +35,10 @@ class TestContainer(unittest.TestCase):
         self.assertIn("two", dir(container))
 
         with self.assertRaisesRegex(LookupError, "IoC: service 'one' is not declared"):
-            container.one
+            container.one()
 
         with self.assertRaisesRegex(RuntimeError, "IoC: service '_one' is not public"):
-            container._one
+            container._one()
 
         self.assertTrue(callable(container.two))
         self.assertEqual(container.two("answer"), "ANSWER: 42 [my-param]")
