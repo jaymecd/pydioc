@@ -17,7 +17,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Nikolai Zujev",
     author_email="nikolai.zujev@gmail.com",
-    url="git+https://github.com/jaymecd/pydioc",
+    url="https://github.com/jaymecd/pydioc",
     packages=find_packages(exclude=["tests"]),
     include_package_data=True,
     zip_safe=False,
@@ -27,7 +27,8 @@ setup(
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Natural Language :: English",
-        "Programming Language :: Python :: 3.7" "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
     ],
     project_urls={
         "Repository": "https://github.com/jaymecd/pydioc",
