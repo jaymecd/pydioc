@@ -3,7 +3,7 @@ from typing import Any, Callable, Iterable, Tuple, Union
 __version__ = "0.1"
 
 
-class Container(object):
+class Container:
     """
     IoC container to automatic dependency orchestration, where order matters.
     """
@@ -87,7 +87,7 @@ class Container(object):
         return f"{self.__class__.__qualname__}({', '.join(self)})"
 
 
-class ContextProxy(object):
+class ContextProxy:
     """
     Allows to work with request scoped object within compiled container.
     """
